@@ -1,5 +1,9 @@
 package intruduccion.passValueOrReference;
 
-public class Cuenta {
+class Cuenta {
+    double saldo;
 
+    public Cuenta(double saldo) {
+        this.saldo = saldo;
+    }
 }
