@@ -1,5 +1,16 @@
 package intruduccion.sobreescritura;
 
-public class Animal {
+class Animal {
 
+    void hacerSonido() {
+        System.out.println("El animal hace un sonido");
+    }
+}
+
+class Perro extends Animal {
+
+    @Override
+    void hacerSonido() {
+        System.out.println("El perro ladra");
+    }
 }
