@@ -8,13 +8,8 @@ public class ArraysEjemplo {
 
         // 1. Declaración de arreglos
         int[] numbers;
-        String[] names;
-        double[] prices;
-
         // 2. Instanciación de arreglos
         numbers = new int[5];
-        names = new String[3];
-
         // 3. Arreglo literal (inicialización directa)
         int[] literalArray = { 10, 20, 30, 40, 50 };
 
